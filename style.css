@@ -1,0 +1,41 @@
+/* .source{
+    height: 100px;
+    width: 200px;
+    margin: 20px;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+.container{
+    height: 500px;
+    width: 250px;
+    border: 1px solid black;
+    transition: 0.3s;
+} */
+
+#root{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.container{
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+#root > div {
+    display: flex;
+    flex-direction: column;
+}
+#create-issue-input{
+    resize: none;
+    border-radius: 5px;
+}
+.card{
+    border: 1px solid black;
+    margin: 10px 0px;
+    padding: 15px 10px;
+    box-shadow: 2px 2px 2px 1px gray;
+    border-radius: 5px;
+}
